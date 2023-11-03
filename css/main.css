@@ -1,11 +1,39 @@
+* {
+    font-family: "Century Gothic", sans-serif;
+}
+
+.bg-dark{
+    background-color: #301b61 !important;
+}
+
+.logo{
+    width: 238px;
+    height: 65.4px;
+}
+
+.navbar-expand-md{
+    justify-content: center !important;
+}
+
+.btn-primary{
+    background-color: mediumvioletred;
+    border-color: mediumvioletred;
+}
+
+.btn-primary:hover{
+    background-color: deeppink;
+    border-color: deeppink;
+}
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aliceblue;
+    background-color: lavender;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
 }
+
