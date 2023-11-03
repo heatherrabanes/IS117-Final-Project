@@ -2,38 +2,124 @@
     font-family: "Century Gothic", sans-serif;
 }
 
-.bg-dark{
-    background-color: #301b61 !important;
+h2{
+    font-weight: bold;
 }
 
-.logo{
-    width: 238px;
-    height: 65.4px;
+
+@media (max-width: 767px){
+    .card-img-overlay{
+        width: 600px;
+    }
+    .card-title{
+        font-size:150%;
+    }
 }
 
-.navbar-expand-md{
-    justify-content: center !important;
+.character-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn-primary{
-    background-color: mediumvioletred;
-    border-color: mediumvioletred;
+.card-img-overlay{
+    margin-top: 3em;
 }
 
-.btn-primary:hover{
-    background-color: deeppink;
-    border-color: deeppink;
+@media (min-width:768px)
+{
+    .character-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: left;
+    }
+    .card-img-overlay {
+        height: 600px;
+    }
+}
+
+.character-text {
+    margin-left: 2em;
+    margin-top: 5em;
+    margin-right: 5em;
+    float: none;
+}
+
+.character {
+    margin-top: 2em;
+    margin-left: 2em;
+    float: none;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+    @media (min-width: 768px) {
+        .character {
+            margin-top: 2em;
+            margin-left: 2em;
+            float: none;
+            max-height: 23%;
+            max-width: 23%;
+        }
+    }
+
+    .bg-dark {
+        background-color: #301b61 !important;
+    }
+
+    .dropdown-menu{
+        background-color: lavender !important;
+    }
+
+    .logo {
+        width: 238px;
+        height: 65.4px;
+    }
+
+    .btn-xl {
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        width: 150px;
+    }
+
+    .btn-primary {
+        background-color: mediumvioletred;
+        border-color: mediumvioletred;
+    }
+
+    .btn-primary:hover {
+        background-color: deeppink;
+        border-color: deeppink;
+    }
+
+    .btn-primary:focus{
+        background-color: deeppink !important;
+        box-shadow: 0 0 0 0.25rem rgba(199, 21, 133, 0.5);
+        border-color: deeppink;
+    }
+
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus,
+.btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus{
+        box-shadow: 0 0 0 0.25rem rgba(199, 21, 133, 0.5) !important;
+    }
+
+.btn-check:focus + .btn-primary, .btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem rgba(199, 21, 133, 0.5) !important;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: lavender;
-    color: white;
-    text-align: right;
-    padding: 10px;
-    font-size: 0.75rem;
-}
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: lavender;
+        color: white;
+        text-align: right;
+        padding: 10px;
+        font-size: 0.75rem;
+    }
+
 
