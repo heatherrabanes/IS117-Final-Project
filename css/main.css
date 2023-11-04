@@ -6,6 +6,25 @@ h2{
     font-weight: bold;
 }
 
+.interior-text{
+    margin-left: 10em;
+    margin-top: 5em;
+    margin-right: 10em;
+    overflow-y: visible;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.interior-image{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media (max-width: 767px){
     .card-img-overlay{
@@ -14,6 +33,15 @@ h2{
     .card-title{
         font-size:150%;
     }
+    .interior-text{
+        margin-left: 5em;
+        margin-top: 5em;
+        margin-right: 5em;
+    }
+    .interior-image{
+        height: 200px;
+    }
+
 }
 
 .character-container {
