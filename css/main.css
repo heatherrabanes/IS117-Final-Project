@@ -26,9 +26,24 @@ figcaption{
     margin-right: auto;
 }
 
+.carousel-image{
+    height: 494px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption-dark{
+    color: #301b61;
+}
+
 @media (max-width: 767px){
     .card-img-overlay{
         width: 600px;
+        margin-top: 3.5em;
+        margin-left: auto;
+        margin-right: auto;
+
     }
     .card-title{
         font-size:150%;
@@ -38,8 +53,16 @@ figcaption{
         margin-top: 5em;
         margin-right: 5em;
     }
+
     .interior-image{
         height: 200px;
+    }
+    .carousel-container{
+        margin-top: 425px;
+        margin-bottom: 100px;
+    }
+    .carousel-image{
+        height: 300px;
     }
 
 }
@@ -74,11 +97,6 @@ input[type="message"]{
     line-height: 75px;
 }
 
-
-.card-img-overlay{
-    margin-top: 3em;
-}
-
 @media (min-width:768px)
 {
     .character-container {
@@ -88,9 +106,19 @@ input[type="message"]{
         justify-content: left;
     }
     .card-img-overlay {
+        margin-top: 3.5em;
         height: 600px;
     }
     .contact-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .carousel-container{
+        margin-top: 625px;
+        margin-bottom: 100px;
         display: flex;
         flex-direction: row;
         justify-content: center;
